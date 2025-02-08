@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(10, 41, 146);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+}
+h1{
+    font-size: 25px;
+}
+
+
+form{
+    margin: 10px auto;
+    width: 500px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    padding-top: 0.3rem;
+    font-size: 15px;
+}
+
+fieldset{
+    margin: 20px auto;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom:  20px;
+    width: 90%;
+    border: 1px solid rgb(203, 203, 203)
+}
+legend{
+    text-align: left;
+    font-size: 21px;
+}
+#fullname , #useremail{
+    float: right;
+    width: 95%;
+    height: 30px;
+}
+.fieldbox{
+    display: grid;
+    grid-template-columns: 170px 1fr;
+    align-items: start;
+    justify-items: end;
+}
+.fieldbox label, input{
+    margin: 13px;
+}
+
+.secondfieldbox{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: start;
+    justify-items: end;
+    padding-bottom: 10px;
+}
+.secondfieldbox label, select, input, textarea{
+    margin: 10px;
+}
+textarea{
+    grid-column: 1/-1;
+    grid-row: 4/5;
+    width: 95%;
+    padding: 5px;
+    text-align: left;
+}
+select{
+    height: 25px;
+    width: 100px;
+}
+#pet {
+    justify-self: start;
+    margin-left: 10px;
+    font-size: 15px;
+    width: 17px;
+    height: 17px;
+}
+
+button{ 
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(1, 1, 161);
+    color: white;
+    font-size: 18px;
+}
