@@ -315,7 +315,7 @@ input[type="radio"]{
     text-align: center;
     background-color: rgb(246, 245, 255);
 }
-.newsletter h1{
+.newsletter .h1{
     margin: 120px 0 10px;
     font-size: 60px;
     padding-top: 30px;
